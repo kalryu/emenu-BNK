@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELAMAT DATANG KE BAD NASI KANDAR</title>
+
+    <!-- link css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- link css animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .tajuk1{
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/tajuk1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .tajuk2{
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/tajuk2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .tajuk3{
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/tajuk3.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .center{
+            height: 100%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .quote{
+            font-size: 13px;
+            margin-top: -8px;
+        }
+        /* start typing animation footer */
+        .typewriter {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+        }
+        /* end typing animation */
+    </style>
+</head>
+<body>
+
+    <div class="container col-lg-8 col-md-11">
+        <h1 class="text-center fw-bold mt-5">WELCOME TO<br><p class="text-success typewriter">BAD NASI KANDAR</p></h1>
+        <p class="mb-5 text-center quote animate__animated animate__lightSpeedInRight"><i>sedap bagitau oqang.. keliaa</i></p>
+
+        <a href="menu.html" class="text-decoration-none">
+            <div class="container col-lg-6 col-md-7 tajuk1 col-10 border rounded shadow animate__animated animate__pulse" style="height: 120px;">
+                <pre class="center fs-3">T O P  M E N U</pre>
+            </div>
+        </a>
+
+        <a href="harga.html" class="text-decoration-none">
+            <div class="container col-lg-6 col-md-7 tajuk2 col-10 border rounded my-5 shadow animate__animated animate__pulse" style="height: 120px;">
+                <p class="center text-center">SENARAI HARGA MAKANAN</p>
+            </div>
+        </a>
+
+        <a href="minuman.html" class="text-decoration-none">
+            <div class="container col-lg-6 col-md-7 tajuk3 col-10 border rounded my-5 shadow animate__animated animate__pulse" style="height: 120px;">
+                <p class="center">SENARAI HARGA MINUMAN</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- start footer -->
+    <footer class="bg-white text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3">
+          <p>Copyright 2024 @ BAD NASI KANDAR <br> Developed by KalRyu</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <!-- end footer -->
+    
+    <!-- link javascript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
