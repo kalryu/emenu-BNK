@@ -1,4 +1,10 @@
-# emenu-BNK
-emenu using Bootstrap and other library
+<h1>DIGITAL MENU</h1>
+<p>Using Framework and other library. <br> Practice for frontend.</p>
+<ul>
+  <li>Bootstrap</li>
+  <li>Html</li>
+  <li>Css</li>
+  <li>Javascript</li>
+</ul>
 
-to view: https://kalryu.github.io/emenu-BNK/
+<a href="https://kalryu.github.io/emenu-BNK/">Click this to view project</a>
